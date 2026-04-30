@@ -3,17 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
     />
+
     <link rel="stylesheet" href="style.css" />
+
     <title>Holiday Planner</title>
   </head>
+
   <body>
     <nav>
       <div class="nav__header">
@@ -23,7 +28,9 @@
         <div class="nav__menu__btn" id="menu-btn">
           <i class="ri-menu-line"></i>
         </div>
+        
       </div>
+
       <ul class="nav__links" id="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#service">Services</a></li>
@@ -32,24 +39,28 @@
         <li><a href="#testimonial">Testimonials</a></li>
       </ul>
     </nav>
+
     <header class="header" id="home">
       <div class="header__container">
         <h1>TRAVELLER<br /><span>FOR LIFE.</span></h1>
         <p>Live your best moments</p>
 
-        <form action="/">
+        <form>
           <div class="input__group">
             <span><i class="ri-map-2-fill"></i></span>
             <input type="text" placeholder="Where are you going?" />
           </div>
+
           <div class="input__group">
             <span><i class="ri-map-pin-2-fill"></i></span>
             <input type="text" placeholder="Location" />
           </div>
+
           <div class="input__group">
             <span><i class="ri-list-ordered-2"></i></span>
-            <input type="text" placeholder="Tout type" />
+            <input type="text" placeholder="Tour type" />
           </div>
+
           <div class="input__group">
             <button class="btn">Search</button>
           </div>
@@ -59,21 +70,23 @@
 
     <section class="feature__container" id="service">
       <div class="feature__card">
-        <img src="./Assets/feature-1.jpeg" alt="feature" />
+        <img src="assets/feature-1.jpeg" alt="feature" />
         <div>
           <h4>Best Destinations</h4>
           <p>Discover the most breathtaking places around the globe.</p>
         </div>
       </div>
+
       <div class="feature__card">
-        <img src="./Assets/feature-2.jpeg" alt="feature" />
+        <img src="assets/feature-2.jpeg" alt="feature" />
         <div>
           <h4>Best Price Guaranteed</h4>
           <p>Enjoy unbeatable prices on every trip you book.</p>
         </div>
       </div>
+
       <div class="feature__card">
-        <img src="./Assets/feature-3.jpeg" alt="feature" />
+        <img src="assets/feature-3.jpeg" alt="feature" />
         <div>
           <h4>Instant Booking</h4>
           <p>Secure your dream vacation with just a click.</p>
@@ -81,8 +94,9 @@
       </div>
     </section>
 
+
     <section class="destination" id="destination">
-      <div class=" destination__container">
+      <div class="section__container">
         <h2 class="section__header">Top Destination</h2>
         <p class="section__description">
           Find out what are the best destination in the world.
@@ -100,7 +114,7 @@
           <div class="destination__content">Bhopal</div>
         </div>
 
-        <div class="destination__card" id="photo3">
+        <div class="destination__card">
           <img src="assets/destination-3.jpeg" alt="destination" />
           <div class="destination__content">Japan</div>
         </div>
@@ -108,64 +122,54 @@
     </section>
 
     <section class="discount">
+      
       <div class="section__container discount__container">
+       
         <h2>
           Get upto 60% discount<br /><span>by joining us before summer</span>
         </h2>
-        <div class="discount__btn">
-          <button class="btn">Join US</button>
-        </div>
+        <button class="btn-2">Join Us</button>
       </div>
     </section>
-    <br /><br /><br />
+
     <section class="package__container" id="package">
       <h2 class="section__header">Featured Packages</h2>
       <p class="section__description">
         We will help you find the trip that's perfect for you.
       </p>
+
       <div class="package__grid">
+  
         <div class="package__card">
           <img src="assets/package-1.jpeg" alt="package" />
           <div class="package__card__details">
             <h4>Kerala Tour</h4>
-            <p>
-              Kerala is a coastal state in southern India known for its lush
-              greenery, backwaters, and high literacy rate. It is famous for
-              serene houseboat cruises, Ayurvedic traditions, and rich cultural
-              heritage.
-            </p>
+            <p>Beautiful backwaters, greenery, and cultural richness.</p>
             <div>
               <button class="btn">Book Now</button>
               <h3>₹20000</h3>
             </div>
           </div>
         </div>
+
+
         <div class="package__card">
           <img src="assets/package-2.jpeg" alt="package" />
           <div class="package__card__details">
             <h4>Rajasthan Tour</h4>
-            <p>
-              Rajasthan is a vibrant desert state in northern India known for
-              its grand forts, palaces, and royal heritage. It is famous for
-              colorful culture, traditional festivals, and cities like Jaipur
-              and Udaipur
-            </p>
+            <p>Royal palaces, forts, and vibrant desert culture.</p>
             <div>
               <button class="btn">Book Now</button>
               <h3>₹15000</h3>
             </div>
           </div>
         </div>
+ 
         <div class="package__card">
           <img src="assets/package-3.jpeg" alt="package" />
           <div class="package__card__details">
             <h4>Ladakh Tour</h4>
-            <p>
-              Ladakh is a high-altitude region in northern India known for its
-              rugged mountains, cold deserts, and Buddhist monasteries. It is
-              famous for stunning landscapes, clear skies, and adventure travel
-              like trekking and biking
-            </p>
+            <p>Mountains, adventure, and breathtaking landscapes.</p>
             <div>
               <button class="btn">Book Now</button>
               <h3>₹10000</h3>
@@ -175,142 +179,126 @@
       </div>
     </section>
 
-<br><br><br>
+    <section id="testimonial">
+  <h2 class="section__header">Client Reviews</h2>
+  <p class="section__description">
+    We have many customers who booked holidays with us
+  </p>
 
-    <section>
-      <h2 class="section__header">Client Reviews</h2>
-      <p class="section__description">
-        We have many customers who booked holidays with us
-      </p>
-      <!-- Slider main container -->
-      <div class="swiper">
-            <div class="testimonial__card">
-              <img src="assets/client-1.jpeg" alt="client" />
-              <span><i class="ri-double-quotes-1"></i></span>
-              <p>
-                The instant booking feature is a game-changer. I secured my
-                dream vacation to Bali in minutes!
-              </p>
-              <h4>Rabi Dee</h4>
-              <h5>Software Engineer</h5>
-            </div>
+  <div class="testimonial__wrapper">
+    <div class="testimonial__track">
 
-            <div class="testimonial__card">
-              <img src="assets/client-2.jpeg" alt="client" />
-              <span><i class="ri-double-quotes-1"></i></span>
-              <p>
-                TravelDream made my vacation planning effortless and enjoyable.
-                Their best price guarantee really delivered!
-              </p>
-              <h4>Mahima Mital</h4>
-              <h5>Photographer</h5>
-            </div>
- 
-            <div class="testimonial__card">
-              <img src="assets/client-3.jpeg" alt="client" />
-              <span><i class="ri-double-quotes-1"></i></span>
-              <p>
-                TravelDream offers an unbeatable combination of great prices and
-                top customer service. Highly recommended!
-              </p>
-              <h4>Minal Sharma</h4>
-              <h5>Traveller</h5>
-            </div>
-
-            <div class="testimonial__card">
-              <img src="assets/client-4.jpeg" alt="client" />
-              <span><i class="ri-double-quotes-1"></i></span>
-              <p>
-                Booking with TravelDream was a breeze. Their user-friendly
-                interface and instant confirmation saved me so much time.
-              </p>
-              <h4>Krusika</h4>
-              <h5>Photographer</h5>
-            </div>
-            <div class="testimonial__card">
-              <img src="assets/client-5.jpeg" alt="client" />
-              <span><i class="ri-double-quotes-1"></i></span>
-              <p>
-                From booking to travel, every step was seamless. TravelDream
-                truly makes travel dreams come true!
-              </p>
-              <h4>Kushankur Sen</h4>
-              <h5>Marketing Manager</h5>
-            </div>
+      <div class="testimonial__card">
+        <img src="assets/client-1.jpeg" />
+        <p>Booking was super fast and easy!</p>
+        <h4>Rabi Dee</h4>
       </div>
-    </section>
+
+      <div class="testimonial__card">
+        <img src="assets/client-2.jpeg" />
+        <p>Amazing service and best prices.</p>
+        <h4>Mahima Mital</h4>
+      </div>
+
+      <div class="testimonial__card">
+        <img src="assets/client-3.jpeg" />
+        <p>Highly recommended travel planner!</p>
+        <h4>Minal Sharma</h4>
+      </div>
+
+      <div class="testimonial__card">
+        <img src="assets/client-4.jpeg" />
+        <p>Very smooth and user-friendly.</p>
+        <h4>Krusika</h4>
+      </div>
+
+      <div class="testimonial__card">
+        <img src="assets/client-5.jpeg" />
+        <p>Everything was perfectly managed.</p>
+        <h4>Kushankur Sen</h4>
+      </div>
+
+    </div>
+  </div>
+</section>
 
     <section class="subscribe">
       <div class="section__container subscribe__container">
-        <h2>Subscribe to our newsletter for update</h2>
-        <div>
-          <p>For the best recommendation of your. Please subscribe us.</p>
-          <form action="/">
-            <input type="text" placeholder="Enter your email Here" />
-            <button class="btn">SUBSCRIBE</button>
-          </form>
-        </div>
+        <h2>Subscribe to our newsletter</h2>
+        <form>
+          <input type="text" placeholder="Enter your email" />
+          <button class="btn">Subscribe</button>
+        </form>
       </div>
     </section>
 
-    <footer class="footer">
-      <div class="section__container footer__container">
-        <div class="footer__col">
-          <div class="footer__logo">
-            <a href="#" class="logo">Holiday<span>Planner</span></a>
-          </div>
-          <p>
-            Explore the world's best destinations, enjoy unbeatable prices, and
-            book your perfect getaway instantly.
-          </p>
-          <h4>CONNECT WITH US</h4>
-          <ul class="footer__socials">
-            <li>
-              <a href="#"><i class="ri-twitter-fill"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="ri-google-fill"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="ri-linkedin-box-fill"></i></a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__col">
-          <h4>QUICK LINKS</h4>
-          <ul class="footer__links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About US</a></li>
-            <li><a href="#">Blogs</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Contact US</a></li>
-          </ul>
-        </div>
-        <div class="footer__col">
-          <h4>DESTINATIONS</h4>
-          <ul class="footer__links">
-            <li><a href="#">Thailand</a></li>
-            <li><a href="#">Goa</a></li>
-            <li><a href="#">Singhapoor</a></li>
-            <li><a href="#">Nepal</a></li>
-            <li><a href="#">Malacia</a></li>
-          </ul>
-        </div>
-        <div class="footer__col">
-          <h4>OUR ACTIVITIES</h4>
-          <ul class="footer__links">
-            <li><a href="#">Treaking</a></li>
-            <li><a href="#">Peak Climbing</a></li>
-            <li><a href="#">Biking</a></li>
-            <li><a href="#">River Rafting</a></li>
-            <li><a href="#">Cultural Tour</a></li>
-          </ul>
-        </div>
+
+<footer class="footer">
+  <div class="section__container footer__container">
+
+
+    <div class="footer__col">
+      <div class="footer__logo">
+        <a href="#" class="logo">Holiday<span>Planner</span></a>
       </div>
-      <div class="footer__bar">
-        Copyright © 2024 Holiday Planner. All rights reserved.
-      </div>
-    </footer>
+      <p>
+        Explore the world's best destinations, enjoy unbeatable prices,
+        and book your perfect getaway instantly.
+      </p>
+
+      <h4>CONNECT WITH US</h4>
+      <ul class="footer__socials">
+        <li>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="ri-google-fill"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h4>QUICK LINKS</h4>
+      <ul class="footer__links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h4>DESTINATIONS</h4>
+      <ul class="footer__links">
+        <li><a href="#">Thailand</a></li>
+        <li><a href="#">Goa</a></li>
+        <li><a href="#">Singapore</a></li>
+        <li><a href="#">Nepal</a></li>
+        <li><a href="#">Malaysia</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h4>OUR ACTIVITIES</h4>
+      <ul class="footer__links">
+        <li><a href="#">Trekking</a></li>
+        <li><a href="#">Peak Climbing</a></li>
+        <li><a href="#">Biking</a></li>
+        <li><a href="#">River Rafting</a></li>
+        <li><a href="#">Cultural Tour</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer__bar">
+    Copyright © 2026 Holiday Planner. All rights reserved.
+  </div>
+</footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
