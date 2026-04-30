@@ -130,7 +130,7 @@ nav{
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("assets/background.jpeg");
+  background-image: url("Assets/background.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -247,7 +247,7 @@ nav{
   margin: 3rem auto;
   padding: 3rem 1rem;
 
-  background-image: url("assets/discount.img.jpeg");
+  background-image: url("Assets/discount.img.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
